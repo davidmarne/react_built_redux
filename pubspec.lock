@@ -75,10 +75,10 @@ packages:
     version: "1.4.0"
   built_redux:
     description:
-      path: "../built_redux"
-      relative: true
-    source: path
-    version: "0.1.1"
+      name: built_redux
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.1.2"
   built_value:
     description:
       name: built_value
@@ -316,10 +316,10 @@ packages:
     version: "3.2.1"
   recompose_dart:
     description:
-      path: "../recompose_dart"
-      relative: true
-    source: path
-    version: "0.0.8"
+      name: recompose_dart
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.0.9"
   resource:
     description:
       name: resource

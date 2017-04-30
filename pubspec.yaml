@@ -1,14 +1,14 @@
 name: react_built_redux
-version: 0.0.0
+version: 0.0.1
 description:
    A provider and connect function for built_redux
 authors:
 - David Marne <davemarne@gmail.com>
 homepage: https://github.com/davidmarne/react_built_redux
 dependencies:
-  built_redux: "^0.1.0"
+  built_redux: "^0.1.2"
   over_react: "^1.6.0"
-  recompose_dart: "^0.0.8"
+  recompose_dart: "^0.0.9"
 
 dev_dependencies:
   coverage: "^0.7.3"
@@ -23,10 +23,6 @@ dependency_overrides:
     git:
       url: git://github.com/greglittlefield-wf/react-dart.git
       ref: context
-  recompose_dart:
-    path: ../recompose_dart/
-  built_redux:
-    path: ../built_redux/
 
 transformers:
   - over_react
