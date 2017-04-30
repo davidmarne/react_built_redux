@@ -1,0 +1,5 @@
+.pub
+.packages
+packages
+.dart_tool
+analysis_options.yaml
