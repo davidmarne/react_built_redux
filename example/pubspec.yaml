@@ -1,0 +1,27 @@
+name: example
+
+dependencies:
+  recompose_dart: '^0.0.9'
+  built_redux: ^0.1.4
+  built_collection: ^1.3.0
+  react_built_redux:
+    path: ../.
+
+dependency_overrides:
+  react:
+    git:
+      url: git://github.com/greglittlefield-wf/react-dart.git
+      ref: context
+
+dev_dependencies:
+  browser: any
+  build: ^0.7.0
+  build_runner: ^0.3.0
+  built_value_generator: ^1.0.0
+  test: "^0.12.6+2"
+
+transformers:
+  - $dart2js
+
+environment:
+  sdk: ">=1.17.1 <2.0.0"
